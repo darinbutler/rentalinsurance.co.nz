@@ -10,16 +10,16 @@ export default function Logo({ variant = 'default', className = '' }: LogoProps)
   const isCompact = variant === 'compact';
 
   return (
-    <Link href="/" className={`flex items-center gap-3 group ${className}`}>
+    <Link href="/" className={`flex items-center gap-2 sm:gap-3 group ${className}`}>
       {/* Shield Icon */}
       <div className="relative flex-shrink-0">
         <svg
           width={isCompact ? 36 : 44}
           height={isCompact ? 42 : 50}
           viewBox="0 0 38 44"
+          className={isCompact ? 'drop-shadow-sm' : 'w-8 h-9 sm:w-11 sm:h-[50px] drop-shadow-sm'}
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="drop-shadow-sm"
         >
           {/* Shield shape */}
           <path
@@ -59,10 +59,10 @@ export default function Logo({ variant = 'default', className = '' }: LogoProps)
       {/* Text — centred, uppercase */}
       {!isCompact && (
         <div className="flex flex-col items-center leading-tight text-center">
-          <span className={`text-[17px] font-extrabold uppercase tracking-widest ${isWhite ? 'text-white' : 'text-slate-900'}`}>
+          <span className={`text-[13px] sm:text-[17px] font-extrabold uppercase tracking-wider sm:tracking-widest ${isWhite ? 'text-white' : 'text-slate-900'}`}>
             RENTAL
           </span>
-          <span className={`text-[17px] font-extrabold uppercase tracking-widest ${isWhite ? 'text-emerald-300' : 'text-emerald-600'}`}>
+          <span className={`text-[13px] sm:text-[17px] font-extrabold uppercase tracking-wider sm:tracking-widest ${isWhite ? 'text-emerald-300' : 'text-emerald-600'}`}>
             INSURANCE
           </span>
         </div>

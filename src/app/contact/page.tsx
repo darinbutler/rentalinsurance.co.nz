@@ -19,7 +19,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center">
+      <section className="h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] relative overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&h=900&fit=crop"
@@ -30,10 +30,10 @@ export default function ContactPage() {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
-          <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
             Contact Us
           </h1>
-          <p className="text-xl text-slate-200">
+          <p className="text-base sm:text-xl text-slate-200">
             We're here to help with any questions about rental insurance
           </p>
         </div>
@@ -124,7 +124,7 @@ export default function ContactPage() {
 
             {/* Quote Form */}
             <div className="lg:col-span-2">
-              <div className="rounded-2xl border-4 border-emerald-500 bg-white shadow-2xl shadow-emerald-200/60 p-8 sm:p-10 ring-1 ring-emerald-500/20">
+              <div className="rounded-2xl border-4 border-emerald-500 bg-white shadow-2xl shadow-emerald-200/60 p-5 sm:p-8 lg:p-10 ring-1 ring-emerald-500/20">
                 {/* Form Header with Badge */}
                 <div className="mb-8">
                   <div className="inline-flex items-center gap-2 bg-emerald-50 text-emerald-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-4 border border-emerald-200">

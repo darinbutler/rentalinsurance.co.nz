@@ -18,7 +18,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center justify-center">
+      <section className="h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] relative overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1600&h=900&fit=crop"
@@ -28,10 +28,10 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-slate-900/60" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
-          <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
             About RentalInsurance.co.nz
           </h1>
-          <p className="text-xl text-slate-200">
+          <p className="text-base sm:text-xl text-slate-200">
             Making rental insurance simple, transparent, and accessible for all New Zealand renters
           </p>
         </div>

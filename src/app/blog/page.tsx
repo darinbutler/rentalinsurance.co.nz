@@ -19,12 +19,12 @@ export default function BlogPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="h-[50vh] min-h-[300px] bg-gradient-to-br from-emerald-600 to-emerald-700 relative overflow-hidden flex items-center justify-center">
+      <section className="h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-gradient-to-br from-emerald-600 to-emerald-700 relative overflow-hidden flex items-center justify-center">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
-          <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
             Rental Insurance Blog
           </h1>
-          <p className="text-xl text-emerald-100">
+          <p className="text-base sm:text-xl text-emerald-100">
             Expert guides and insights for NZ renters
           </p>
         </div>

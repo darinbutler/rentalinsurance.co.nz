@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function StudentsPage() {
   return (
     <>
-      <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center">
+      <section className="h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] relative overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&h=900&fit=crop"
@@ -30,10 +30,10 @@ export default function StudentsPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl">
             <GraduationCap className="w-12 h-12 text-white mb-4" />
-            <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
               Student Accommodation Insurance
             </h1>
-            <p className="text-xl text-slate-200 mb-8">
+            <p className="text-base sm:text-xl text-slate-200 mb-8">
               Affordable rental contents insurance designed for university halls, student flats, and shared accommodation across New Zealand
             </p>
             <Link

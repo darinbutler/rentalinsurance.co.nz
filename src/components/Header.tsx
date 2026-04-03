@@ -27,12 +27,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <span className="hidden sm:block">
-            <Logo />
-          </span>
-          <span className="sm:hidden">
-            <Logo variant="compact" />
-          </span>
+          <Logo />
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">

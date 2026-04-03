@@ -86,31 +86,31 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[70vh] min-h-[500px] w-full overflow-hidden">
+      <section className="relative h-[60vh] min-h-[380px] sm:min-h-[450px] lg:min-h-[500px] w-full overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&h=900&fit=crop"
             alt="Modern apartment interior"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/70 via-slate-900/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/60 to-slate-900/30 sm:from-slate-900/70 sm:via-slate-900/50 sm:to-transparent" />
         </div>
 
-        <div className="relative z-10 flex h-full flex-col items-start justify-center px-6 sm:px-12 lg:px-20">
+        <div className="relative z-10 flex h-full flex-col items-start justify-center px-5 sm:px-12 lg:px-20">
           <div className="max-w-2xl">
-            <h1 className="mb-6 text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
+            <h1 className="mb-4 sm:mb-6 text-3xl font-bold leading-tight text-white sm:text-5xl lg:text-7xl">
               Protect Your Belongings with the Right Rental Insurance
             </h1>
-            <p className="mb-8 text-xl text-slate-200 sm:text-2xl">
+            <p className="mb-6 sm:mb-8 text-base text-slate-200 sm:text-xl lg:text-2xl">
               Compare quotes from NZ's leading insurers in minutes. Get the coverage you need at a price you'll love, from just $20/month.
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-4">
-              <Link href="#quote-form" className="rounded-lg bg-emerald-600 px-8 py-3 font-semibold text-white transition-all hover:bg-emerald-700 hover:shadow-lg">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <Link href="#quote-form" className="rounded-lg bg-emerald-600 px-6 sm:px-8 py-3 font-semibold text-white text-center transition-all hover:bg-emerald-700 hover:shadow-lg">
                 Get a Free Quote
               </Link>
-              <Link href="/compare" className="rounded-lg border-2 border-white px-8 py-3 font-semibold text-white transition-all hover:bg-white/10 hover:shadow-lg">
+              <Link href="/compare" className="rounded-lg border-2 border-white px-6 sm:px-8 py-3 font-semibold text-white text-center transition-all hover:bg-white/10 hover:shadow-lg">
                 Compare Insurers
               </Link>
             </div>
@@ -128,7 +128,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Coverage for Every Renter
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
@@ -167,7 +167,7 @@ export default function HomePage() {
       {/* What Is Rental Insurance - SEO Content Section */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
             What Is Rental Insurance in New Zealand?
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
@@ -187,7 +187,7 @@ export default function HomePage() {
       {/* NZ Tenant Liability Law */}
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
             Tenant Liability Law in New Zealand
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
@@ -222,7 +222,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Why Rental Insurance Matters for NZ Renters
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
@@ -265,7 +265,7 @@ export default function HomePage() {
       {/* How Much Does Rental Insurance Cost */}
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
             How Much Does Rental Insurance Cost in New Zealand?
           </h2>
           <div className="prose prose-lg prose-slate max-w-none space-y-5 text-slate-600 leading-relaxed">
@@ -335,7 +335,7 @@ export default function HomePage() {
       {/* Tips for Saving on Rental Insurance */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
             Tips for Saving on Rental Insurance in NZ
           </h2>
           <div className="space-y-5 text-slate-600 leading-relaxed text-lg">
@@ -370,7 +370,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-20 bg-slate-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Frequently Asked Questions
             </h2>
             <p className="text-slate-600 text-lg">
@@ -418,7 +418,7 @@ export default function HomePage() {
       <section id="quote-form" className="py-16 lg:py-20 bg-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Get Your Free Quote Today
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">

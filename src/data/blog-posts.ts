@@ -47,8 +47,8 @@ export const blogPosts: BlogPost[] = [
         <li>Don't just pick the cheapest option - consider coverage quality</li>
       </ul>
     `,
-    date: '2024-03-15',
-    author: 'Sarah Mitchell',
+    date: '2026-01-12',
+    author: 'Liam Ngata',
     readTime: 6,
     category: 'Insurance Guide',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop',
@@ -105,8 +105,8 @@ export const blogPosts: BlogPost[] = [
         <li>Understand your excess and what situations are covered</li>
       </ul>
     `,
-    date: '2024-03-10',
-    author: 'James Chen',
+    date: '2026-02-04',
+    author: 'Sophie Hartley',
     readTime: 8,
     category: 'Coverage Guide',
     image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop',
@@ -159,8 +159,8 @@ export const blogPosts: BlogPost[] = [
       <h2>Moving Out with Flatmates</h2>
       <p>When someone moves out, there's often dispute about damage and who caused it. Make sure you have: (1) clear photos showing condition when you moved in, (2) documentation of what damage existed, (3) individual insurance policies that cover your items, and (4) communication with other flatmates about shared damage.</p>
     `,
-    date: '2024-03-05',
-    author: 'Emma Wilson',
+    date: '2026-01-27',
+    author: 'Reuben Whitfield',
     readTime: 7,
     category: 'Flatmate Guide',
     image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop',
@@ -231,8 +231,8 @@ export const blogPosts: BlogPost[] = [
         <li>Update your sum insured if you buy new expensive items</li>
       </ul>
     `,
-    date: '2024-02-28',
-    author: 'Alex Thompson',
+    date: '2026-03-18',
+    author: 'Aroha Patel',
     readTime: 8,
     category: 'Student Guide',
     image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop',
@@ -309,8 +309,8 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Know your rights:</strong> Familiarize yourself with the Residential Tenancies Act</li>
       </ul>
     `,
-    date: '2024-02-20',
-    author: 'David Harrison',
+    date: '2026-02-22',
+    author: 'Callum Te Awa',
     readTime: 9,
     category: 'Legal Guide',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop',
@@ -395,8 +395,8 @@ export const blogPosts: BlogPost[] = [
         <li>Keep records of any communication with landlords or other parties</li>
       </ul>
     `,
-    date: '2024-02-10',
-    author: 'Michael Rivers',
+    date: '2026-03-05',
+    author: 'Jessica Morrow',
     readTime: 10,
     category: 'Claims Guide',
     image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop',

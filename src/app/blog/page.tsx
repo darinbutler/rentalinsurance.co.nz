@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   title: 'Blog | Rental Insurance NZ',
   description: 'Expert guides and articles about rental insurance, tenant rights, and student accommodation insurance in New Zealand.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/blog/' },
+  keywords: 'rental insurance blog, tenant guides NZ, rental insurance tips, student accommodation insurance, renters advice',
+  openGraph: {
+    title: 'Blog | Rental Insurance NZ',
+    description: 'Expert guides and articles about rental insurance, tenant rights, and accommodation insurance in New Zealand.',
+    type: 'website',
+  },
 }
 
 export default function BlogPage() {
@@ -101,6 +107,19 @@ export default function BlogPage() {
           </Link>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: 'Rental Insurance Blog NZ',
+            description: 'Expert guides and articles about rental insurance in New Zealand',
+            url: 'https://rentalinsurance.co.nz/blog/',
+          }),
+        }}
+      />
     </>
   )
 }

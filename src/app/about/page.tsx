@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: 'About RentalInsurance.co.nz | Independent Insurance Comparison for NZ Renters',
   description: 'Learn about RentalInsurance.co.nz, the independent rental insurance comparison platform for New Zealand renters. Compare quotes from top NZ insurers, understand coverage options, and find the best rental insurance for your needs.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/about/' },
+  keywords: 'about rental insurance NZ, independent insurance comparison, tenant insurance comparison, rental protection service',
+  openGraph: {
+    title: 'About RentalInsurance.co.nz | Independent Insurance Comparison for NZ Renters',
+    description: 'Independent rental insurance comparison platform for NZ renters. Compare quotes and find the best coverage for your needs.',
+    type: 'website',
+  },
 }
 
 export default function AboutPage() {
@@ -365,6 +371,23 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'AboutPage',
+            name: 'About RentalInsurance.co.nz',
+            description: 'New Zealand\'s rental insurance comparison service',
+            mainEntity: {
+              '@type': 'Organization',
+              name: 'RentalInsurance.co.nz',
+              url: 'https://rentalinsurance.co.nz',
+            },
+          }),
+        }}
+      />
     </>
   )
 }

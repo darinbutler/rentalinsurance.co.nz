@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   title: 'Flatmate & Shared Accommodation Insurance | NZ',
   description: 'Individual rental insurance for flatmates and shared living situations in New Zealand. Separate coverage for shared flats.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/sectors/flatmates/' },
+  keywords: 'flatmate insurance NZ, shared flat insurance, flatmate contents insurance, shared accommodation coverage, rental insurance flatmates',
+  openGraph: {
+    title: 'Flatmate & Shared Accommodation Insurance | NZ',
+    description: 'Individual rental insurance for flatmates and shared living situations in New Zealand.',
+    type: 'website',
+  },
 }
 
 export default function FlatmatesPage() {
@@ -442,13 +448,13 @@ export default function FlatmatesPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Service',
-            name: 'Flatmate Insurance',
-            description: 'Rental insurance for flatmates in New Zealand',
+            name: 'Flatmate Insurance NZ',
+            description: 'Contents insurance for flatmates and shared accommodation in New Zealand',
             provider: {
               '@type': 'Organization',
-              name: 'Rental Insurance NZ',
+              name: 'RentalInsurance.co.nz',
             },
-            areaServed: 'NZ',
+            areaServed: 'New Zealand',
           }),
         }}
       />

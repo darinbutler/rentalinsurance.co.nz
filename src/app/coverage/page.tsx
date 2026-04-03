@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   title: 'Rental Insurance Coverage Guide NZ | What\'s Covered & Excluded',
   description: 'Complete guide to rental insurance coverage in New Zealand. Learn what\'s covered, what\'s excluded, how much cover you need, tenant liability law, and how to choose the right policy.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/coverage/' },
+  keywords: 'rental insurance coverage NZ, what is covered, what is excluded, tenant liability insurance NZ, contents insurance guide, rental protection',
+  openGraph: {
+    title: 'Rental Insurance Coverage Guide NZ | What\'s Covered & Excluded',
+    description: 'Complete guide to rental insurance coverage in New Zealand. Learn what\'s covered, what\'s excluded, and how to choose the right policy.',
+    type: 'website',
+  },
 }
 
 export default function CoveragePage() {
@@ -385,6 +391,23 @@ export default function CoveragePage() {
           <QuoteForm compact={true} />
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            name: 'Rental Insurance Coverage NZ',
+            description: 'Comprehensive rental insurance coverage guide for New Zealand tenants',
+            provider: {
+              '@type': 'Organization',
+              name: 'RentalInsurance.co.nz',
+            },
+            areaServed: 'New Zealand',
+          }),
+        }}
+      />
     </>
   )
 }

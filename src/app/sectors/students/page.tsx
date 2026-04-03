@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   title: 'Student Contents Insurance NZ | Halls & Flat Coverage',
   description: 'Comprehensive student accommodation insurance for NZ university halls, flats, and shared housing. Affordable coverage from $180-900/year. Compare quotes for electronics, accidental damage, and liability protection.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/sectors/students/' },
+  keywords: 'student rental insurance NZ, university halls insurance, student contents insurance, accommodation insurance students, student tenant coverage',
+  openGraph: {
+    title: 'Student Contents Insurance NZ | Halls & Flat Coverage',
+    description: 'Comprehensive student accommodation insurance for NZ university halls and flats. Affordable coverage and compare quotes.',
+    type: 'website',
+  },
 }
 
 export default function StudentsPage() {

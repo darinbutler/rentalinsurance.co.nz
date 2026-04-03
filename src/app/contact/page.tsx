@@ -5,8 +5,14 @@ import { Mail, Phone, Clock, MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Rental Insurance NZ',
-  description: 'Get in touch with our rental insurance team. Contact us via email, phone, or our online form.',
+  description: 'Get in touch with our rental insurance team. Contact us via email, phone, or our online form for quotes and support.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/contact/' },
+  keywords: 'contact rental insurance NZ, rental insurance quotes, tenant insurance support, insurance enquiries NZ',
+  openGraph: {
+    title: 'Contact Us | Rental Insurance NZ',
+    description: 'Get in touch with our rental insurance team for quotes and support.',
+    type: 'website',
+  },
 }
 
 export default function ContactPage() {
@@ -240,6 +246,24 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ContactPage',
+            name: 'Contact RentalInsurance.co.nz',
+            description: 'Get free rental insurance quotes from NZ\'s top providers',
+            mainEntity: {
+              '@type': 'Organization',
+              name: 'RentalInsurance.co.nz',
+              email: 'hello@cover4you.co.nz',
+              telephone: '09-885-9549',
+            },
+          }),
+        }}
+      />
     </>
   )
 }

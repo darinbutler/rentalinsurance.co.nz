@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   title: 'Family Rental Insurance NZ | Complete Coverage & Protection',
   description: 'Comprehensive family rental insurance in New Zealand. Protect furniture, appliances, children\'s items, and your liability. Compare quotes from top insurers today.',
   alternates: { canonical: 'https://rentalinsurance.co.nz/sectors/families/' },
+  keywords: 'family rental insurance NZ, family contents insurance, tenant insurance families, home rental protection, family liability coverage',
+  openGraph: {
+    title: 'Family Rental Insurance NZ | Complete Coverage & Protection',
+    description: 'Comprehensive family rental insurance protecting furniture, appliances, and liability in New Zealand.',
+    type: 'website',
+  },
 }
 
 export default function FamiliesPage() {
@@ -432,13 +438,13 @@ export default function FamiliesPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Service',
-            name: 'Family Rental Insurance',
-            description: 'Rental insurance for families in New Zealand',
+            name: 'Family Rental Insurance NZ',
+            description: 'Comprehensive rental insurance for families renting in New Zealand',
             provider: {
               '@type': 'Organization',
-              name: 'Rental Insurance NZ',
+              name: 'RentalInsurance.co.nz',
             },
-            areaServed: 'NZ',
+            areaServed: 'New Zealand',
           }),
         }}
       />

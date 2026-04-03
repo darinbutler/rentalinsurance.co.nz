@@ -191,7 +191,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* JSON-LD Schema */}
+      {/* JSON-LD Schema - BlogPosting */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -206,6 +206,22 @@ export default async function BlogPostPage({ params }: PageProps) {
               '@type': 'Person',
               name: post.author,
             },
+          }),
+        }}
+      />
+
+      {/* JSON-LD Schema - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://rentalinsurance.co.nz/' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://rentalinsurance.co.nz/blog/' },
+              { '@type': 'ListItem', position: 3, name: post.title, item: `https://rentalinsurance.co.nz/blog/${post.slug}/` },
+            ],
           }),
         }}
       />

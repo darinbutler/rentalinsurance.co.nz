@@ -1,0 +1,74 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/10dirdbl~~.d4.js"],""]
+9:I[55307,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/10dirdbl~~.d4.js"],"default"]
+a:I[97367,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["https://images.unsplash.com/photo-1523207736207-7b226c1c60b7?w=600&h=400&fit=crop","image"]
+3:T1193,
+      <h2>Do Students Need Rental Insurance?</h2>
+      <p>Yes, absolutely. Most student accommodation providers (both halls of residence and private landlords) require rental insurance as a condition of the lease. Even if it's not required, it's essential because students often have valuable electronics, and shared accommodation has higher risks of theft and accidental damage.</p>
+
+      <h2>Insurance for University Halls</h2>
+      <h3>Mandatory Coverage</h3>
+      <p>Most university halls of residence require you to have rental insurance. This is usually arranged by the university, and the cost is added to your accommodation bill (typically $100-$150 per year). This covers your personal belongings and your liability for damage in your room.</p>
+
+      <h3>What's Covered in Halls</h3>
+      <p>Halls insurance typically covers: your electronics (laptop, phone, camera), clothing and personal items, books and study materials, and your liability for damage in your room (accidental damage to walls, doors, furniture). It usually does NOT cover damage to communal areas or damage caused by other residents.</p>
+
+      <h2>Insurance for Private Student Accommodation</h2>
+      <p>If you're renting a flat with other students, you'll need to arrange your own rental insurance. This is where it gets important - you need your own separate policy covering your belongings and your liability for accidental damage.</p>
+
+      <h2>Why Student Insurance is Different</h2>
+      <h3>Higher Theft Risk</h3>
+      <p>Student accommodation (especially halls) often has higher theft risk due to multiple residents. Many insurers charge a small premium for halls accommodation.</p>
+
+      <h3>Accidental Damage</h3>
+      <p>Student flats have higher accidental damage rates - parties, spills, and accidents are more common. Some student-specific policies include accidental damage in the basic cover.</p>
+
+      <h3>Shared Accommodation</h3>
+      <p>Understanding liability in shared student flats is critical. Each resident needs their own policy to protect themselves.</p>
+
+      <h2>Valuable Items Students Often Own</h2>
+      <ul>
+        <li><strong>Laptop/Desktop Computer:</strong> Often the most expensive item. Make sure it's covered under contents (usually yes)</li>
+        <li><strong>Phone & Tablet:</strong> Check if these are covered at full replacement value</li>
+        <li><strong>Camera/Video Equipment:</strong> Film and media students should note these might have limits</li>
+        <li><strong>Musical Instruments:</strong> These often need specific cover and may have limited coverage</li>
+        <li><strong>Gaming Equipment:</strong> Consoles and gaming PCs should be specifically listed if valuable</li>
+        <li><strong>Jewelry:</strong> Most policies limit individual jewelry items to $500-$1000</li>
+      </ul>
+
+      <h2>Money-Saving Tips for Students</h2>
+      <h3>Check What Your Parents' Insurance Covers</h3>
+      <p>Some contents insurance policies for the family home cover students living away while studying. Ask your parents if their policy extends to you.</p>
+
+      <h3>Student-Specific Discounts</h3>
+      <p>Many insurers offer discounts specifically for students with valid student ID. These can save 10-15% on premiums.</p>
+
+      <h3>Choose an Appropriate Excess</h3>
+      <p>Students can often afford higher excess ($250-$500) to get lower premiums. This works if you're careful with your belongings.</p>
+
+      <h3>Bundle Deals</h3>
+      <p>Some insurers offer student-specific packages that include home & contents or other products at a discount.</p>
+
+      <h2>What Happens During Breaks?</h3>
+      <p>If you're moving out of accommodation during semester breaks or going home, let your insurer know. Some policies have specific coverage rules for temporary absences or changes in occupancy.</p>
+
+      <h2>Student Insurance Checklist</h2>
+      <ul>
+        <li>Check if your accommodation provider requires insurance (most do)</li>
+        <li>Get your own separate policy if in private accommodation</li>
+        <li>Document all your valuable electronics with photos and receipts</li>
+        <li>Make sure your laptop and phone are covered at replacement value</li>
+        <li>Ask about student discounts</li>
+        <li>Get accidental damage cover if you can afford it</li>
+        <li>Keep your policy details safe and accessible</li>
+        <li>Update your sum insured if you buy new expensive items</li>
+      </ul>
+    0:{"rsc":["$","$1","c",{"children":[[["$","div",null,{"className":"bg-gradient-to-br from-emerald-600 to-emerald-700 py-12","children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-emerald-100 hover:text-white mb-6","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Back to Blog"]}],["$","h1",null,{"className":"text-4xl font-extrabold text-white mb-4","children":"Insurance for Student Accommodation: What You Need to Know"}],["$","div",null,{"className":"flex flex-wrap items-center gap-6 text-emerald-100 text-sm","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-user w-4 h-4","children":[["$","path","975kel",{"d":"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"}],["$","circle","17ys0d",{"cx":"12","cy":"7","r":"4"}],"$undefined"]}],"Alex Thompson"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],8," min read"]}],["$","span",null,{"children":"28 February 2024"}],["$","span",null,{"className":"px-3 py-1 bg-emerald-500/30 rounded-full","children":"Student Guide"}]]}]]}]}],["$","div",null,{"className":"py-12 bg-white","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-3 gap-12","children":[["$","div",null,{"className":"lg:col-span-2","children":[["$","div",null,{"className":"mb-12 rounded-lg overflow-hidden h-96 bg-gradient-to-br from-emerald-400 to-sky-400","children":["$","img",null,{"src":"https://images.unsplash.com/photo-1523207736207-7b226c1c60b7?w=600&h=400&fit=crop","alt":"Insurance for Student Accommodation: What You Need to Know","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"prose prose-slate max-w-none","children":["$","div",null,{"className":"article-content space-y-6 text-slate-700","dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4"]}],"$L5"]}]}]}],"$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TUIw48EkY0-NwySiO4iSQ"}
+4:["$","div",null,{"className":"mt-16 pt-8 border-t border-slate-200 flex gap-4 justify-between","children":[["$","$L2",null,{"href":"/blog/flatmates-guide-contents-insurance","className":"flex-1 p-4 border border-slate-200 rounded-lg hover:border-emerald-300 hover:shadow-lg transition-all","children":[["$","p",null,{"className":"text-xs text-slate-600 mb-2","children":"Previous Article"}],["$","p",null,{"className":"font-semibold text-slate-900 line-clamp-2","children":"A Flatmate's Guide to Contents Insurance"}]]}],["$","$L2",null,{"href":"/blog/tenant-liability-nz-law","className":"flex-1 p-4 border border-slate-200 rounded-lg hover:border-emerald-300 hover:shadow-lg transition-all","children":[["$","p",null,{"className":"text-xs text-slate-600 mb-2","children":"Next Article"}],["$","p",null,{"className":"font-semibold text-slate-900 line-clamp-2","children":"Tenant Liability Under NZ Law: Your Rights and Responsibilities"}]]}]]}]
+5:["$","div",null,{"className":"lg:col-span-1","children":["$","div",null,{"className":"sticky top-20 space-y-8","children":[["$","div",null,{"className":"bg-emerald-50 rounded-lg p-6 border border-emerald-200","children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Ready to Get Protected?"}],["$","$L9",null,{"compact":true}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Related Articles"}],["$","div",null,{"className":"space-y-3","children":[]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Share This Article"}],["$","div",null,{"className":"flex gap-3","children":[["$","button",null,{"className":"p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Share on Facebook"}],"f"]}],["$","button",null,{"className":"p-3 bg-sky-400 text-white rounded-lg hover:bg-sky-500 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Share on Twitter"}],"𝕏"]}],["$","button",null,{"className":"p-3 bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Copy link"}],"🔗"]}]]}]]}]]}]}]
+6:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Insurance for Student Accommodation: What You Need to Know\",\"description\":\"Complete guide to student rental insurance in New Zealand, including halls of residence and flatting.\",\"image\":\"https://images.unsplash.com/photo-1523207736207-7b226c1c60b7?w=600&h=400&fit=crop\",\"datePublished\":\"2024-02-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Alex Thompson\"}}"}}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/10dirdbl~~.d4.js","async":true}]
+8:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null

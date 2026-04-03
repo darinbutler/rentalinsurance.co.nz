@@ -86,58 +86,33 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="h-[70vh] min-h-[500px] bg-gradient-to-br from-emerald-50 via-sky-50 to-emerald-50 relative overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-sky-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+      <section className="relative h-[70vh] min-h-[500px] w-full overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&h=900&fit=crop"
+            alt="Modern apartment interior"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/70 via-slate-900/50 to-transparent" />
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center items-center text-center">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl lg:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
-              Protect Your Belongings with the Right <span className="text-emerald-600">Rental Insurance</span>
+        <div className="relative z-10 flex h-full flex-col items-start justify-center px-6 sm:px-12 lg:px-20">
+          <div className="max-w-2xl">
+            <h1 className="mb-6 text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
+              Protect Your Belongings with the Right Rental Insurance
             </h1>
-            <p className="text-xl text-slate-700 mb-8 leading-relaxed">
+            <p className="mb-8 text-xl text-slate-200 sm:text-2xl">
               Compare quotes from NZ's leading insurers in minutes. Get the coverage you need at a price you'll love, from just $20/month.
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <a
-                href="#quote-form"
-                className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 px-8 rounded-lg transition-all duration-200 shadow-lg shadow-emerald-600/30 hover:shadow-emerald-600/50 hover:-translate-y-0.5"
-              >
+            <div className="flex flex-wrap gap-4">
+              <Link href="#quote-form" className="rounded-lg bg-emerald-600 px-8 py-3 font-semibold text-white transition-all hover:bg-emerald-700 hover:shadow-lg">
                 Get a Free Quote
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </a>
-              <a
-                href="/compare"
-                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-emerald-600 font-bold py-4 px-8 rounded-lg transition-all duration-200 border-2 border-emerald-200 shadow-lg hover:shadow-xl"
-              >
+              </Link>
+              <Link href="/compare" className="rounded-lg border-2 border-white px-8 py-3 font-semibold text-white transition-all hover:bg-white/10 hover:shadow-lg">
                 Compare Insurers
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                </svg>
-              </a>
-            </div>
-
-            {/* Trust Indicators */}
-            <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <span className="flex items-center gap-2 text-slate-700">
-                <CheckCircle className="w-5 h-5 text-emerald-600" />
-                ICNZ Registered
-              </span>
-              <span className="flex items-center gap-2 text-slate-700">
-                <CheckCircle className="w-5 h-5 text-emerald-600" />
-                No Broker Fees
-              </span>
-              <span className="flex items-center gap-2 text-slate-700">
-                <CheckCircle className="w-5 h-5 text-emerald-600" />
-                Instant Quotes
-              </span>
+              </Link>
             </div>
           </div>
         </div>

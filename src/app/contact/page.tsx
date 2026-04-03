@@ -118,15 +118,17 @@ export default function ContactPage() {
 
             {/* Quote Form */}
             <div className="lg:col-span-2">
-              <div className="mb-8">
-                <h2 className="text-2xl font-bold text-slate-900 mb-2">
-                  Get a Free Quote
-                </h2>
-                <p className="text-slate-600">
-                  Fill out the form below and we'll contact you with quotes from NZ's leading insurers.
-                </p>
+              <div className="rounded-2xl border-2 border-emerald-200 bg-white shadow-xl shadow-emerald-100/50 p-8 sm:p-10">
+                <div className="mb-8">
+                  <h2 className="text-2xl font-bold text-slate-900 mb-2">
+                    Get a Free Quote
+                  </h2>
+                  <p className="text-slate-600">
+                    Fill out the form below and we'll contact you with quotes from NZ's leading insurers.
+                  </p>
+                </div>
+                <QuoteForm compact={true} />
               </div>
-              <QuoteForm compact={true} />
             </div>
           </div>
         </div>

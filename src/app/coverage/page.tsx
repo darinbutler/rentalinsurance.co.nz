@@ -16,8 +16,8 @@ export default function CoveragePage() {
       <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1600&h=900&fit=crop"
-            alt="Cosy home interior with personal belongings"
+            src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1600&h=900&fit=crop"
+            alt="Modern home interior with personal belongings"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-slate-900/60" />
@@ -29,6 +29,105 @@ export default function CoveragePage() {
           <p className="text-xl text-slate-200 max-w-2xl mx-auto">
             Everything NZ renters need to know about what rental insurance covers, what it excludes, and how to choose the right level of protection
           </p>
+        </div>
+      </section>
+
+      {/* Coverage Tiers - Prominent placement below hero */}
+      <section className="py-16 lg:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">
+            Standard Coverage Tiers
+          </h2>
+          <p className="text-slate-600 text-lg text-center max-w-2xl mx-auto mb-12">
+            Choose a level of cover that matches the replacement value of your belongings. You can adjust your sum insured, excess, and optional add-ons when you get a quote.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                title: 'Basic',
+                value: '$20,000',
+                price: 'From $20/month',
+                best: 'Students & single flatmates',
+                features: [
+                  'Contents cover up to $20,000',
+                  'Tenant liability up to $2M',
+                  'Standard $500 excess',
+                  'Fire, theft, storm, flood cover',
+                  'Basic claims support',
+                ],
+              },
+              {
+                title: 'Standard',
+                value: '$50,000',
+                price: 'From $25/month',
+                featured: true,
+                best: 'Most popular for couples & professionals',
+                features: [
+                  'Contents cover up to $50,000',
+                  'Tenant liability up to $2M',
+                  'Flexible excess from $250',
+                  'Accidental damage add-on available',
+                  'Temporary accommodation (60 days)',
+                  'Priority claims support',
+                ],
+              },
+              {
+                title: 'Premium',
+                value: '$100,000+',
+                price: 'From $35/month',
+                best: 'Families & high-value contents',
+                features: [
+                  'Comprehensive cover $100K+',
+                  'Tenant liability up to $5M',
+                  'Low excess from $100',
+                  'Specified valuables included',
+                  'Full temporary accommodation',
+                  'Dedicated claims manager',
+                ],
+              },
+            ].map((tier, idx) => (
+              <div
+                key={idx}
+                className={`rounded-lg p-8 transition-all duration-300 ${
+                  tier.featured
+                    ? 'bg-emerald-600 text-white border-2 border-emerald-600 shadow-xl scale-105'
+                    : 'bg-white border-2 border-slate-200 hover:border-emerald-300'
+                }`}
+              >
+                <h3 className={`text-2xl font-bold mb-1 ${tier.featured ? 'text-white' : 'text-slate-900'}`}>
+                  {tier.title}
+                </h3>
+                <p className={`text-3xl font-extrabold mb-1 ${tier.featured ? 'text-emerald-100' : 'text-emerald-600'}`}>
+                  {tier.value}
+                </p>
+                <p className={`text-sm mb-1 ${tier.featured ? 'text-emerald-200' : 'text-slate-500'}`}>
+                  {tier.best}
+                </p>
+                <p className={`font-semibold mb-6 ${tier.featured ? 'text-emerald-100' : 'text-slate-600'}`}>
+                  {tier.price}
+                </p>
+                <ul className="space-y-3 mb-8">
+                  {tier.features.map((feature, fidx) => (
+                    <li key={fidx} className={`flex gap-2 text-sm ${tier.featured ? 'text-emerald-100' : 'text-slate-700'}`}>
+                      <CheckCircle className={`w-5 h-5 flex-shrink-0 ${tier.featured ? 'text-white' : 'text-emerald-600'}`} />
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  href="/contact"
+                  className={`w-full block text-center py-3 rounded-lg font-semibold transition-colors ${
+                    tier.featured
+                      ? 'bg-white text-emerald-600 hover:bg-emerald-50'
+                      : 'bg-emerald-600 text-white hover:bg-emerald-700'
+                  }`}
+                >
+                  Get Quote
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -250,105 +349,6 @@ export default function CoveragePage() {
             <p>
               For students living in halls of residence or other university-provided accommodation, check whether you are covered under your parents' contents insurance policy first. Many family policies provide limited cover for students living away from home, typically up to a specified sub-limit (e.g. $10,000–$20,000). If your parents' policy doesn't cover you, or the limit is insufficient, you should consider taking out your own policy.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Coverage Tiers */}
-      <section className="py-16 lg:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">
-            Standard Coverage Tiers
-          </h2>
-          <p className="text-slate-600 text-lg text-center max-w-2xl mx-auto mb-12">
-            Choose a level of cover that matches the replacement value of your belongings. You can adjust your sum insured, excess, and optional add-ons when you get a quote.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              {
-                title: 'Basic',
-                value: '$20,000',
-                price: 'From $20/month',
-                best: 'Students & single flatmates',
-                features: [
-                  'Contents cover up to $20,000',
-                  'Tenant liability up to $2M',
-                  'Standard $500 excess',
-                  'Fire, theft, storm, flood cover',
-                  'Basic claims support',
-                ],
-              },
-              {
-                title: 'Standard',
-                value: '$50,000',
-                price: 'From $25/month',
-                featured: true,
-                best: 'Most popular for couples & professionals',
-                features: [
-                  'Contents cover up to $50,000',
-                  'Tenant liability up to $2M',
-                  'Flexible excess from $250',
-                  'Accidental damage add-on available',
-                  'Temporary accommodation (60 days)',
-                  'Priority claims support',
-                ],
-              },
-              {
-                title: 'Premium',
-                value: '$100,000+',
-                price: 'From $35/month',
-                best: 'Families & high-value contents',
-                features: [
-                  'Comprehensive cover $100K+',
-                  'Tenant liability up to $5M',
-                  'Low excess from $100',
-                  'Specified valuables included',
-                  'Full temporary accommodation',
-                  'Dedicated claims manager',
-                ],
-              },
-            ].map((tier, idx) => (
-              <div
-                key={idx}
-                className={`rounded-lg p-8 transition-all duration-300 ${
-                  tier.featured
-                    ? 'bg-emerald-600 text-white border-2 border-emerald-600 shadow-xl scale-105'
-                    : 'bg-white border-2 border-slate-200 hover:border-emerald-300'
-                }`}
-              >
-                <h3 className={`text-2xl font-bold mb-1 ${tier.featured ? 'text-white' : 'text-slate-900'}`}>
-                  {tier.title}
-                </h3>
-                <p className={`text-3xl font-extrabold mb-1 ${tier.featured ? 'text-emerald-100' : 'text-emerald-600'}`}>
-                  {tier.value}
-                </p>
-                <p className={`text-sm mb-1 ${tier.featured ? 'text-emerald-200' : 'text-slate-500'}`}>
-                  {tier.best}
-                </p>
-                <p className={`font-semibold mb-6 ${tier.featured ? 'text-emerald-100' : 'text-slate-600'}`}>
-                  {tier.price}
-                </p>
-                <ul className="space-y-3 mb-8">
-                  {tier.features.map((feature, fidx) => (
-                    <li key={fidx} className={`flex gap-2 text-sm ${tier.featured ? 'text-emerald-100' : 'text-slate-700'}`}>
-                      <CheckCircle className={`w-5 h-5 flex-shrink-0 ${tier.featured ? 'text-white' : 'text-emerald-600'}`} />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <Link
-                  href="/contact"
-                  className={`w-full block text-center py-3 rounded-lg font-semibold transition-colors ${
-                    tier.featured
-                      ? 'bg-white text-emerald-600 hover:bg-emerald-50'
-                      : 'bg-emerald-600 text-white hover:bg-emerald-700'
-                  }`}
-                >
-                  Get Quote
-                </Link>
-              </div>
-            ))}
           </div>
         </div>
       </section>

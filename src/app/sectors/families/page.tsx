@@ -15,7 +15,7 @@ export default function FamiliesPage() {
       <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1581579438747-104c53d7fbc4?w=1600&h=900&fit=crop"
+            src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=1600&h=900&fit=crop"
             alt="Happy family relaxing at home"
             className="w-full h-full object-cover"
           />

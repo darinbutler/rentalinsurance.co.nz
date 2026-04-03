@@ -143,7 +143,15 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-center text-xs text-slate-500">
             <p>
-              Copyright {currentYear} Rental Insurance. All rights reserved. | ICNZ Registered Referral Service
+              Copyright {currentYear} Rental Insurance. All rights reserved. | Member of the{' '}
+              <a
+                href="https://www.icnz.org.nz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-400 hover:text-emerald-300 transition-colors underline"
+              >
+                Insurance Council of New Zealand
+              </a>
             </p>
           </div>
         </div>

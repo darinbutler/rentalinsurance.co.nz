@@ -109,7 +109,7 @@ export const blogPosts: BlogPost[] = [
     author: 'James Chen',
     readTime: 8,
     category: 'Coverage Guide',
-    image: 'https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop',
   },
   {
     slug: 'flatmates-guide-contents-insurance',
@@ -235,7 +235,7 @@ export const blogPosts: BlogPost[] = [
     author: 'Alex Thompson',
     readTime: 8,
     category: 'Student Guide',
-    image: 'https://images.unsplash.com/photo-1523207736207-7b226c1c60b7?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop',
   },
   {
     slug: 'tenant-liability-nz-law',
@@ -313,7 +313,7 @@ export const blogPosts: BlogPost[] = [
     author: 'David Harrison',
     readTime: 9,
     category: 'Legal Guide',
-    image: 'https://images.unsplash.com/photo-1589939705066-5470d6f5f8b1?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop',
   },
   {
     slug: 'top-claims-nz-renters',
@@ -399,6 +399,6 @@ export const blogPosts: BlogPost[] = [
     author: 'Michael Rivers',
     readTime: 10,
     category: 'Claims Guide',
-    image: 'https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop',
   },
 ];

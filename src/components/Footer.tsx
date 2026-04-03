@@ -143,7 +143,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-center text-xs text-slate-500">
             <p>
-              Copyright {currentYear} Rental Insurance. All rights reserved. | Member of the{' '}
+              Copyright {currentYear} Rental Insurance. All rights reserved. |{' '}
               <a
                 href="https://www.icnz.org.nz/"
                 target="_blank"

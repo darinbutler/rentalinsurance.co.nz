@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/compare/page": "app/compare/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/coverage/page": "app/coverage/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/sectors/families/page": "app/sectors/families/page.js",
+  "/sectors/flatmates/page": "app/sectors/flatmates/page.js",
+  "/sectors/students/page": "app/sectors/students/page.js",
+  "/sectors/tenants/page": "app/sectors/tenants/page.js",
+  "/terms/page": "app/terms/page.js",
+  "/thank-you/page": "app/thank-you/page.js"
+}

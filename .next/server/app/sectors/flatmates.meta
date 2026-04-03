@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/sectors/layout,_N_T_/sectors/flatmates/layout,_N_T_/sectors/flatmates/page,_N_T_/sectors/flatmates"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/sectors/flatmates/__PAGE__",
+    "/sectors/flatmates",
+    "/sectors",
+    "/_index",
+    "/_head"
+  ]
+}

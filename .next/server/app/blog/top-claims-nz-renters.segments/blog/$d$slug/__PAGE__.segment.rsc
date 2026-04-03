@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/10dirdbl~~.d4.js"],""]
+9:I[55307,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/10dirdbl~~.d4.js"],"default"]
+a:I[97367,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop","image"]
+3:T17ca,
+      <h2>Introduction</h2>
+      <p>Understanding the most common rental insurance claims helps you see what actually happens and how insurance protects renters. Based on claims data from NZ insurers, here are the top 5 claims renters make.</p>
+
+      <h2>1. Theft and Burglary (25% of claims)</h2>
+      <h3>The Scenario</h3>
+      <p>A flatmate forgets to lock the back door. Thieves enter overnight and steal electronics, jewelry, and other valuables. Total value stolen: $4,200.</p>
+
+      <h3>The Claim</h3>
+      <p>The tenant files a claim with theft report from police. The insurer assesses the claim, verifies the items owned (using photos, receipts where available), and pays out $3,950 (less the $250 excess).</p>
+
+      <h3>The Lesson</h3>
+      <p>Always lock doors and windows. Burglars often target unsecured properties. Having documented proof of ownership (photos, receipts) makes claims faster. Consider security items like good locks or motion sensors.</p>
+
+      <h2>2. Accidental Water Damage (20% of claims)</h2>
+      <h3>The Scenario</h3>
+      <p>A flatmate leaves a shower running while getting ready. Water floods the bathroom and seeps into the lounge, damaging the tenant's furniture, electronics, and belongings. Estimated damage: $6,500.</p>
+
+      <h3>The Claim</h3>
+      <p>The renter's contents insurance covers their belongings ($5,500 claim approved). The flatmate's tenant liability insurance should cover the damage, but there's often a gap. Both renters file claims and both payouts are made according to policy limits.</p>
+
+      <h3>The Lesson</h3>
+      <p>Water damage is one of the most common and costly claims. Check that water damage is covered in your policy. Take photos of damage immediately. Mitigate further damage (dry out items, remove furniture from water). Get multiple quotes if damage is significant.</p>
+
+      <h2>3. Damage During Moving/Furniture Incident (18% of claims)</h2>
+      <h3>The Scenario</h3>
+      <p>While moving furniture, a large mirror hits a flatscreen TV, damaging both items. The TV costs $1,200 to replace, and there's also significant water damage when a pipe gets hit. Flatmates argue about who's liable.</p>
+
+      <h3>The Claim</h3>
+      <p>The person whose TV it was claims on their contents insurance (approved with excess). The tenant who caused the damage claims on their tenant liability insurance for the pipe damage, but the other tenant's contents claim is separate.</p>
+
+      <h3>The Lesson</h3>
+      <p>Accidents happen during moving and heavy lifting. Accidental damage cover is valuable if you have expensive items. Be careful when moving furniture, especially near electronics or walls. Document your valuable items before any incidents.</p>
+
+      <h2>4. Fire and Smoke Damage (15% of claims)</h2>
+      <h3>The Scenario</h3>
+      <p>A small kitchen fire (from unattended cooking) damages the kitchen and spreads smoke throughout the flat. While the building damage is covered by the landlord's insurance, the tenant's belongings (clothing, furniture, electronics, etc.) are damaged by smoke and heat. Estimated loss: $8,000.</p>
+
+      <h3>The Claim</h3>
+      <p>The renter files a contents claim with the insurer. Despite not being directly burned, items damaged by smoke and heat are covered. The insurer pays approximately $7,200 (after excess) for damaged contents. Temporary accommodation is also covered while the flat is being repaired.</p>
+
+      <h3>The Lesson</h3>
+      <p>Fire and smoke damage to belongings is extensive. Even if you escape unharmed, your belongings can be damaged. Never leave cooking unattended. Smoke damage affects items throughout the flat, even those not directly exposed to fire. Temporary accommodation benefit is valuable - it covers your living costs while repairs happen.</p>
+
+      <h2>5. Tenant Liability Claims (12% of claims)</h2>
+      <h3>The Scenario</h3>
+      <p>During a flat party, someone accidentally puts a foot through the rented property's ceiling (old plasterboard). The landlord's builder quotes $1,800 to repair. But the landlord's insurance excess is $1,500, actual cost is $1,800, and the renter's rent is only $450/week = $1,800/month.</p>
+
+      <h3>The Claim</h3>
+      <p>The renter's tenant liability insurance covers it under the $4-week rent cap rule. The liability is limited to the lowest of: $1,800 (actual), $1,800 (4 weeks rent), $1,500 (landlord excess) = $1,500. The insurance pays $1,500, the landlord absorbs the rest, and the renter is protected from further costs.</p>
+
+      <h3>The Lesson</h3>
+      <p>Tenant liability claims often happen at parties or during normal living. The $4-week rent cap is a huge protection. Always have tenant liability insurance - it protects you from significant costs. Be careful with parties, and make sure guests know not to be reckless.</p>
+
+      <h2>Key Takeaways from These Claims</h2>
+      <ul>
+        <li>Most claims are for accidental damage or theft, not intentional damage</li>
+        <li>Having good insurance means claims are handled quickly and fairly</li>
+        <li>Documentation (photos, receipts) makes claims faster to process</li>
+        <li>Accidental damage cover and tenant liability are essential</li>
+        <li>The $4-week rent cap provides significant protection</li>
+        <li>Temporary accommodation benefit is valuable during major incidents</li>
+        <li>Don't avoid claiming - that's what insurance is for</li>
+        <li>Prevention is better - secure your flat, be careful, and maintain items properly</li>
+      </ul>
+
+      <h2>How to Be Claim-Ready</h2>
+      <ul>
+        <li>Document your belongings with photos and keep receipts</li>
+        <li>Maintain a list of your valuable items and their approximate values</li>
+        <li>Keep policy documents and contact details accessible</li>
+        <li>Report incidents immediately (theft, damage, etc.)</li>
+        <li>Take photos of any damage before cleaning up</li>
+        <li>Keep records of any communication with landlords or other parties</li>
+      </ul>
+    0:{"rsc":["$","$1","c",{"children":[[["$","div",null,{"className":"bg-gradient-to-br from-emerald-600 to-emerald-700 py-12","children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-emerald-100 hover:text-white mb-6","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Back to Blog"]}],["$","h1",null,{"className":"text-4xl font-extrabold text-white mb-4","children":"Top 5 Insurance Claims NZ Renters Make"}],["$","div",null,{"className":"flex flex-wrap items-center gap-6 text-emerald-100 text-sm","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-user w-4 h-4","children":[["$","path","975kel",{"d":"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"}],["$","circle","17ys0d",{"cx":"12","cy":"7","r":"4"}],"$undefined"]}],"Michael Rivers"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],10," min read"]}],["$","span",null,{"children":"10 February 2024"}],["$","span",null,{"className":"px-3 py-1 bg-emerald-500/30 rounded-full","children":"Claims Guide"}]]}]]}]}],["$","div",null,{"className":"py-12 bg-white","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-3 gap-12","children":[["$","div",null,{"className":"lg:col-span-2","children":[["$","div",null,{"className":"mb-12 rounded-lg overflow-hidden h-96 bg-gradient-to-br from-emerald-400 to-sky-400","children":["$","img",null,{"src":"https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop","alt":"Top 5 Insurance Claims NZ Renters Make","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"prose prose-slate max-w-none","children":["$","div",null,{"className":"article-content space-y-6 text-slate-700","dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4"]}],"$L5"]}]}]}],"$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"K-Dk64l_Kva4TsTqNzz9M"}
+4:["$","div",null,{"className":"mt-16 pt-8 border-t border-slate-200 flex gap-4 justify-between","children":[["$","$L2",null,{"href":"/blog/tenant-liability-nz-law","className":"flex-1 p-4 border border-slate-200 rounded-lg hover:border-emerald-300 hover:shadow-lg transition-all","children":[["$","p",null,{"className":"text-xs text-slate-600 mb-2","children":"Previous Article"}],["$","p",null,{"className":"font-semibold text-slate-900 line-clamp-2","children":"Tenant Liability Under NZ Law: Your Rights and Responsibilities"}]]}],false]}]
+5:["$","div",null,{"className":"lg:col-span-1","children":["$","div",null,{"className":"sticky top-20 space-y-8","children":[["$","div",null,{"className":"bg-emerald-50 rounded-lg p-6 border border-emerald-200","children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Ready to Get Protected?"}],["$","$L9",null,{"compact":true}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Related Articles"}],["$","div",null,{"className":"space-y-3","children":[]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Share This Article"}],["$","div",null,{"className":"flex gap-3","children":[["$","button",null,{"className":"p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Share on Facebook"}],"f"]}],["$","button",null,{"className":"p-3 bg-sky-400 text-white rounded-lg hover:bg-sky-500 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Share on Twitter"}],"𝕏"]}],["$","button",null,{"className":"p-3 bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Copy link"}],"🔗"]}]]}]]}]]}]}]
+6:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Top 5 Insurance Claims NZ Renters Make\",\"description\":\"Real examples of the most common insurance claims renters file and what we can learn from them.\",\"image\":\"https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop\",\"datePublished\":\"2024-02-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Michael Rivers\"}}"}}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/10dirdbl~~.d4.js","async":true}]
+8:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null

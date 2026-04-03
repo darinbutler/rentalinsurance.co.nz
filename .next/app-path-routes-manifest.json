@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
+  "/compare/page": "/compare",
+  "/contact/page": "/contact",
+  "/coverage/page": "/coverage",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/sectors/families/page": "/sectors/families",
+  "/sectors/flatmates/page": "/sectors/flatmates",
+  "/sectors/students/page": "/sectors/students",
+  "/sectors/tenants/page": "/sectors/tenants",
+  "/terms/page": "/terms",
+  "/thank-you/page": "/thank-you"
+}

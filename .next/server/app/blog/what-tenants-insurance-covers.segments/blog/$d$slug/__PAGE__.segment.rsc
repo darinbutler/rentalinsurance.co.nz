@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/10dirdbl~~.d4.js"],""]
+9:I[55307,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/10dirdbl~~.d4.js"],"default"]
+a:I[97367,["/_next/static/chunks/0o_-hd75.8s7i.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop","image"]
+3:Tdd5,
+      <h2>What IS Covered</h2>
+      <h3>Personal Belongings</h3>
+      <p>The main part of your policy covers your personal belongings inside the rental property. This typically includes: furniture (beds, sofas, tables), electronics (TV, laptop, phone), clothing and accessories, kitchen items and appliances, books and media, and sporting equipment. Coverage is up to your chosen sum insured (e.g., $50,000).</p>
+
+      <h3>Accidental Damage (if included)</h3>
+      <p>If you add accidental damage cover, it protects your belongings from accidents like spilling wine on your sofa or dropping and breaking your laptop. This is optional and costs extra but is highly recommended.</p>
+
+      <h3>Tenant Liability</h3>
+      <p>This covers accidental damage YOU cause to the rental property up to the policy limit (usually $2 million). Examples include: punching a hole in the wall, accidentally breaking the shower screen, water damage from leaving a tap running, or damage from having friends over. Under NZ law, your liability is capped at the lowest of: actual cost to repair, 4 weeks rent, or the landlord's insurance excess.</p>
+
+      <h3>Temporary Accommodation</h3>
+      <p>If your rental becomes uninhabitable due to a covered event (fire, flood, burglary), the insurer covers temporary accommodation costs (usually up to 30-60 days depending on policy).</p>
+
+      <h3>Legal Costs and Liability</h3>
+      <p>Most policies include cover for legal liability up to $2 million (sometimes up to $5 million with premium insurers) if someone is injured at your property and sues you.</p>
+
+      <h2>What is NOT Covered</h2>
+      <h3>Intentional Damage or Theft by You</h3>
+      <p>If you deliberately damage your belongings or the property, it's not covered. Insurance only covers accidental damage and genuine risks.</p>
+
+      <h3>Wear and Tear</h3>
+      <p>Normal depreciation and aging of items is not covered. For example, if your sofa fades due to sun exposure or your carpet gets worn, that's not an insurable event.</p>
+
+      <h3>The Building Itself</h3>
+      <p>Rental insurance only covers your belongings and your liability. The actual building structure, walls, roof, and fixed fittings are the landlord's responsibility.</p>
+
+      <h3>Earthquake (usually)</h3>
+      <p>Most standard policies don't include earthquake cover. The Earthquake Commission (EQC) covers up to $15,000 of personal property damage in earthquakes, but you might want additional coverage.</p>
+
+      <h3>Items Outside the Property</h3>
+      <p>If items are stored outside the rental or are at another address, they're typically not covered unless specifically added to the policy.</p>
+
+      <h3>High-Value Items</h3>
+      <p>Expensive jewelry, art, or collectibles may have limits on coverage (often $500-$1000 per item). You can add specific items with higher limits for an additional premium.</p>
+
+      <h3>Natural Disasters (depends on policy)</h3>
+      <p>Some natural disasters may not be covered unless you have specific add-ons. Check your policy wording carefully.</p>
+
+      <h2>Important Things to Check</h2>
+      <ul>
+        <li>Read your policy documents carefully - exclusions vary between insurers</li>
+        <li>Keep receipts or photos of valuable items as proof of ownership</li>
+        <li>Update your sum insured if your belongings increase in value</li>
+        <li>Ask about any items you're unsure about before a claim</li>
+        <li>Understand your excess and what situations are covered</li>
+      </ul>
+    0:{"rsc":["$","$1","c",{"children":[[["$","div",null,{"className":"bg-gradient-to-br from-emerald-600 to-emerald-700 py-12","children":["$","div",null,{"className":"max-w-3xl mx-auto px-4 sm:px-6 lg:px-8","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-emerald-100 hover:text-white mb-6","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left w-4 h-4","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Back to Blog"]}],["$","h1",null,{"className":"text-4xl font-extrabold text-white mb-4","children":"What Does Tenants Insurance Actually Cover?"}],["$","div",null,{"className":"flex flex-wrap items-center gap-6 text-emerald-100 text-sm","children":[["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-user w-4 h-4","children":[["$","path","975kel",{"d":"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"}],["$","circle","17ys0d",{"cx":"12","cy":"7","r":"4"}],"$undefined"]}],"James Chen"]}],["$","span",null,{"className":"flex items-center gap-2","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-clock w-4 h-4","children":[["$","circle","1mglay",{"cx":"12","cy":"12","r":"10"}],["$","polyline","68esgv",{"points":"12 6 12 12 16 14"}],"$undefined"]}],8," min read"]}],["$","span",null,{"children":"10 March 2024"}],["$","span",null,{"className":"px-3 py-1 bg-emerald-500/30 rounded-full","children":"Coverage Guide"}]]}]]}]}],["$","div",null,{"className":"py-12 bg-white","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-3 gap-12","children":[["$","div",null,{"className":"lg:col-span-2","children":[["$","div",null,{"className":"mb-12 rounded-lg overflow-hidden h-96 bg-gradient-to-br from-emerald-400 to-sky-400","children":["$","img",null,{"src":"https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop","alt":"What Does Tenants Insurance Actually Cover?","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"prose prose-slate max-w-none","children":["$","div",null,{"className":"article-content space-y-6 text-slate-700","dangerouslySetInnerHTML":{"__html":"$3"}}]}],"$L4"]}],"$L5"]}]}]}],"$L6"],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"K-Dk64l_Kva4TsTqNzz9M"}
+4:["$","div",null,{"className":"mt-16 pt-8 border-t border-slate-200 flex gap-4 justify-between","children":[["$","$L2",null,{"href":"/blog/understanding-rental-insurance-nz","className":"flex-1 p-4 border border-slate-200 rounded-lg hover:border-emerald-300 hover:shadow-lg transition-all","children":[["$","p",null,{"className":"text-xs text-slate-600 mb-2","children":"Previous Article"}],["$","p",null,{"className":"font-semibold text-slate-900 line-clamp-2","children":"Understanding Rental Insurance in New Zealand"}]]}],["$","$L2",null,{"href":"/blog/flatmates-guide-contents-insurance","className":"flex-1 p-4 border border-slate-200 rounded-lg hover:border-emerald-300 hover:shadow-lg transition-all","children":[["$","p",null,{"className":"text-xs text-slate-600 mb-2","children":"Next Article"}],["$","p",null,{"className":"font-semibold text-slate-900 line-clamp-2","children":"A Flatmate's Guide to Contents Insurance"}]]}]]}]
+5:["$","div",null,{"className":"lg:col-span-1","children":["$","div",null,{"className":"sticky top-20 space-y-8","children":[["$","div",null,{"className":"bg-emerald-50 rounded-lg p-6 border border-emerald-200","children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Ready to Get Protected?"}],["$","$L9",null,{"compact":true}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Related Articles"}],["$","div",null,{"className":"space-y-3","children":[]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"font-bold text-slate-900 mb-4","children":"Share This Article"}],["$","div",null,{"className":"flex gap-3","children":[["$","button",null,{"className":"p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Share on Facebook"}],"f"]}],["$","button",null,{"className":"p-3 bg-sky-400 text-white rounded-lg hover:bg-sky-500 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Share on Twitter"}],"𝕏"]}],["$","button",null,{"className":"p-3 bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition-colors","children":[["$","span",null,{"className":"sr-only","children":"Copy link"}],"🔗"]}]]}]]}]]}]}]
+6:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"What Does Tenants Insurance Actually Cover?\",\"description\":\"Detailed breakdown of what is and isn't covered by typical tenants insurance policies in New Zealand.\",\"image\":\"https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop\",\"datePublished\":\"2024-03-10\",\"author\":{\"@type\":\"Person\",\"name\":\"James Chen\"}}"}}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/10dirdbl~~.d4.js","async":true}]
+8:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null

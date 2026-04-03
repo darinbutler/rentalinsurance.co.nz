@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/0lc6zy2pr.__l.css","style"]
+:HL["https://images.unsplash.com/photo-1554224311-beee415c15c7?w=600&h=400&fit=crop","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"blog","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"what-tenants-insurance-covers","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"K-Dk64l_Kva4TsTqNzz9M"}

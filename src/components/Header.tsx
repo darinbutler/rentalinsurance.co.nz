@@ -36,13 +36,6 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">
-            <Link
-              href="/"
-              className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors"
-            >
-              Home
-            </Link>
-
             {/* Sectors Dropdown */}
             <div className="relative group">
               <button className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-emerald-600 transition-colors flex items-center gap-1">
@@ -148,14 +141,6 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="lg:hidden pb-4 space-y-1">
-            <Link
-              href="/"
-              className="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Home
-            </Link>
-
             {/* Mobile Sectors */}
             <button
               onClick={() => setIsSectorsOpen(!isSectorsOpen)}

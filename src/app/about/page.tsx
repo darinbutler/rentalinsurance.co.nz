@@ -12,12 +12,20 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="h-[50vh] min-h-[300px] bg-gradient-to-br from-emerald-600 to-emerald-700 relative overflow-hidden flex items-center justify-center">
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
+      <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center justify-center">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1600&h=900&fit=crop"
+            alt="New Zealand cityscape"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-slate-900/60" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
           <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
             About Us
           </h1>
-          <p className="text-xl text-emerald-100">
+          <p className="text-xl text-slate-200">
             Making rental insurance simple and transparent for all New Zealanders
           </p>
         </div>

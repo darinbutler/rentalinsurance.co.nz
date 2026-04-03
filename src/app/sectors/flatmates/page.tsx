@@ -12,14 +12,22 @@ export const metadata: Metadata = {
 export default function FlatmatesPage() {
   return (
     <>
-      <section className="h-[50vh] min-h-[300px] bg-gradient-to-br from-emerald-600 to-emerald-700 relative overflow-hidden flex items-center">
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&h=900&fit=crop"
+            alt="Friends enjoying time together in shared flat"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-slate-900/60" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl">
             <Users className="w-12 h-12 text-white mb-4" />
             <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
               Flatmates Insurance
             </h1>
-            <p className="text-xl text-emerald-100 mb-8">
+            <p className="text-xl text-slate-200 mb-8">
               Individual coverage for flatmates in shared accommodation - protect yourself and manage liability properly
             </p>
             <Link

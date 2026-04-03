@@ -12,14 +12,22 @@ export const metadata: Metadata = {
 export default function StudentsPage() {
   return (
     <>
-      <section className="h-[50vh] min-h-[300px] bg-gradient-to-br from-emerald-600 to-emerald-700 relative overflow-hidden flex items-center">
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&h=900&fit=crop"
+            alt="University students studying together"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-slate-900/60" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl">
             <GraduationCap className="w-12 h-12 text-white mb-4" />
             <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
               Student Accommodation Insurance
             </h1>
-            <p className="text-xl text-emerald-100 mb-8">
+            <p className="text-xl text-slate-200 mb-8">
               Affordable coverage for halls, flats, and shared student accommodation across New Zealand
             </p>
             <Link

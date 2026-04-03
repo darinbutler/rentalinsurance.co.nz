@@ -13,17 +13,21 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="h-[50vh] min-h-[300px] bg-gradient-to-br from-emerald-600 to-emerald-700 relative overflow-hidden flex items-center">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-emerald-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
+      <section className="h-[50vh] min-h-[300px] relative overflow-hidden flex items-center">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&h=900&fit=crop"
+            alt="Friendly customer service discussion"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-slate-900/60" />
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
           <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4">
             Contact Us
           </h1>
-          <p className="text-xl text-emerald-100">
+          <p className="text-xl text-slate-200">
             We're here to help with any questions about rental insurance
           </p>
         </div>

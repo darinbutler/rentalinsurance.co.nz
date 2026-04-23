@@ -247,7 +247,7 @@ export default function AboutPage() {
               <ul className="space-y-4">
                 <li className="flex gap-3">
                   <span className="font-bold text-emerald-200 text-xl">✓</span>
-                  <span className="text-lg"><strong>ICNZ-Registered Providers:</strong> We work exclusively with Insurance Council of New Zealand registered providers to ensure you're protected by industry standards</span>
+                  <span className="text-lg"><strong>Licensed Providers:</strong> We work exclusively with Insurance Council of New Zealand registered providers to ensure you're protected by industry standards</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-emerald-200 text-xl">✓</span>
